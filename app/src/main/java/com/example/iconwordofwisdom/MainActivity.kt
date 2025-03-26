@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
                             "Nelson" -> "It always seems impossible until it's done."
                             "Miriam" -> "Girls are the future mothers of our society, and it is important that we focus on their well-being."
                             "Lucas" -> "I want to be remembered as someone who gave everything for his country and the game."
-                            else -> "Invalid icon first name!"
+                            else -> "Invalid icon first name! Try again"
                         }
                     }) {
                         Text(text = "Search")
